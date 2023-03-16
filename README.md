@@ -7,7 +7,7 @@
 <h2>Nasıl Kullanılır? 🤔</h2>
 
 1. Bu dosyayı bir web sunucusuna yükleyin.
-2. Web tarayıcınızda, bu dosyaya sunucu adresi üzerinden erişin.
+2. Web tarayıcınızda, bu dosyaya sunucu adresi üzerinden erişin. (XAMPP indirip Apache servisini aktif hale getirerek kullanabilirsiniz.)
 3. YouTube video URL'sini yapıştırın ve "Önizle" düğmesine tıklayın.
 4. Varsayılan olarak, küçük resim önizlemesi gösterilecektir.
 5. "Resmi İndir" düğmesine tıklayarak, küçük resmi bilgisayarınıza indirin.
