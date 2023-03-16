@@ -8,9 +8,11 @@
 
 1. Bu dosyayı bir web sunucusuna yükleyin.
 2. Web tarayıcınızda, bu dosyaya sunucu adresi üzerinden erişin. (XAMPP indirip Apache servisini aktif hale getirerek kullanabilirsiniz.)
-3. YouTube video URL'sini yapıştırın ve "Önizle" düğmesine tıklayın.
-4. Varsayılan olarak, küçük resim önizlemesi gösterilecektir.
-5. "Resmi İndir" düğmesine tıklayarak, küçük resmi bilgisayarınıza indirin.
+3. XAMPP uygulamasında ki Explorer klasörüne tıklayın ve açılan dosya dizisindeki htdocs klasörünün içine projemizin dosyasını ekleyin.
+4. Ardından tarayıcınıza http://localhost/Get-Youtube-Video-Cover-main yazın ve çalıştırın.
+5. YouTube video URL'sini yapıştırın ve "Önizle" düğmesine tıklayın.
+6. Varsayılan olarak, küçük resim önizlemesi gösterilecektir.
+7. "Resmi İndir" düğmesine tıklayarak, küçük resmi bilgisayarınıza indirin.
 
 <h2>Nasıl Çalışır? 🛠️</h2>
 Bu araç, PHP dilinde yazılmıştır ve CURL kütüphanesini kullanarak YouTube'dan küçük resimleri indirir. Küçük resimler, JPEG biçiminde indirilir ve indirilen dosyanın adı "thumbnail.jpg" olarak ayarlanır.
