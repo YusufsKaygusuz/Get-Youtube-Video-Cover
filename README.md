@@ -1,10 +1,8 @@
-# Get-Youtube-Video-Cover
-If you want to download the cover image of the youtube video you like, you can use this program.
-
-![ss_800x671](https://user-images.githubusercontent.com/86704802/225759654-6cf149c9-1bf2-4048-b641-1b543fedca97.jpg)
-
 <h2>YouTube Videolarındaki Küçük Resimleri İndirme Aracı 📹👀💾</h2>
-Bu basit PHP aracı, herhangi bir YouTube videosunun küçük resmini indirmenize olanak tanır.
+<p>Bu basit PHP aracı, herhangi bir YouTube videosunun küçük resmini indirmenize olanak tanır.</p>
+
+![ss_640x537](https://user-images.githubusercontent.com/86704802/225760683-237f818e-6b3d-4c80-b810-13d4d823bf5d.jpg)
+
 
 <h2>Nasıl Kullanılır? 🤔</h2>
 Bu dosyayı bir web sunucusuna yükleyin.
