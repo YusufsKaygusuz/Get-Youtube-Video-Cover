@@ -40,39 +40,7 @@
         <button class="download-btn" type="submit" name="download" >Resmi İndiriniz</button>
      </form>
   
-  <script>
-        const urlField = document.querySelector(".field input"),
-        previewArea = document.querySelector(".preview-area"),
-        imgTag = previewArea.querySelector(".thumbnail"),
-        hiddenInput = document.querySelector(".hidden-input"),
-        button = document.querySelector(".download-btn");
-
-        urlField.onkeyup = ()=>{
-          const imgUrl = urlField.value; // kullanıcı tarafından girilen değeri alma 
-          previewArea.classList.add("active");
-          button.style.pointerEvents = "auto";
-
-    //https://www.youtube.com/watch?v=lqwdD2ivIbM example of video url --- lqwdD2ivIbM this is a video id and it's unique
-
-    if(imgUrl.indexOf("https://www.youtube.com/watch?v=") != -1){ // girilen değer YouTube videosunun url'si ise
-       let vidId = imgUrl.split('v=')[1].substring(0, 11); // YouTube video url'sini v= olarak alıyoruz, böylece yalnızca video kimliğini almış oluyoruz
-       let ytImgUrl = `https://img.youtube.com/vi/${vidId}/maxresdefault.jpg`; // girilen url video kimliğini YouTube küçük resim url'sinin içine geçiriyoruz
-       imgTag.src = ytImgUrl;
-    }else if(imgUrl.indexOf("https://youtu.be/") != -1){ // video url'si şuna benziyorsa
-       let vidId = imgUrl.split("be/")[1].substring(0, 11); // YouTube video url'sini be/ olarak alıyoruz, böylece yalnızca video kimliğini almış oluyoruz
-       let ytThumnUrl = 'https://img.youtube.com/vi/${vidId}/maxresdefault.jpg'; // girilen url video kimliğini YouTube küçük resim url'sinin içine geçiriyoruz
-       imgTag.src = ytThumnUrl;
-    }else if(imgUrl.match(/\.(jpe?g|png|gif|bmp|webp)$/i)){ // girilen değer başka bir resim dosyasının url'si ise
-       imgTag.src = imgUrl;
-    }else{
-      imgTag.src = "";
-        button.style.pointerEvents = "none";
-        previewArea.classList.remove("active");
-    }
-    hiddenInput.value = imgTag.src; // img src'yi gizli giriş değerine geçirme
-  }
-
-</script>
+<script src="script.js"></script>
   
 </body>
 </html>
