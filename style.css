@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73cd9, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+*/
+form{
+    background: #fff;
+    width: 450px;
+    padding: 30px;
+    border-radius: 5px;
+}
+form header{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+}
+form .url-input{
+    margin: 30px 0;
+} 
+.url-input .title{
+    font-size: 18px;
+    color: #373737;
+}
+.url-input .field{
+    height: 50px;
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+}
+.url-input .field input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    padding: 0 15px;
+    background: #f1f1f7;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.url-input .field .bottom-line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: #DF2E38;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+}
+.url-input .field input:focus ~ .bottom-line,
+.url-input .field input:valid ~ .bottom-line{
+    transform: scale(1);
+}
+form .preview-area{
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 2px dashed #DF2E38;
+}
+.preview-area.active{
+    border: none;
+}
+.preview-area .thumbnail{
+    width: 100%;
+    border-radius: 5px;
+    display: none;
+}
+.preview-area.active .thumbnail{
+    display: block;
+    width: 500px;
+}
+.preview-area .icon{
+    color: #DF2E38;
+    font-size: 80px;
+}
+.preview-area span{
+    color: white;
+    margin-top: 25px;
+}
+.preview-area.active .icon,
+.preview-area.active span{
+    display: none;
+}
+
+form .download-btn{
+    height: 53px;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    background: #DF2E38;
+    border-radius: 5px;
+    margin: 30px 0 20px 0;
+    cursor: pointer;
+}
