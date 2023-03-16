@@ -12,9 +12,6 @@
 4. Varsayılan olarak, küçük resim önizlemesi gösterilecektir.
 5. "Resmi İndir" düğmesine tıklayarak, küçük resmi bilgisayarınıza indirin.
 
-
-
-
 <h2>Nasıl Çalışır? 🛠️</h2>
 Bu araç, PHP dilinde yazılmıştır ve CURL kütüphanesini kullanarak YouTube'dan küçük resimleri indirir. Küçük resimler, JPEG biçiminde indirilir ve indirilen dosyanın adı "thumbnail.jpg" olarak ayarlanır.
 
@@ -22,6 +19,30 @@ Bu araç, PHP dilinde yazılmıştır ve CURL kütüphanesini kullanarak YouTube
 Bu araç, yalnızca YouTube videolarının küçük resimlerini indirmek için kullanılabilir.
 Bu araç, YouTube API'sine erişim gerektirmez.
 Bu araç, yalnızca eğitim ve öğretim amaçlı kullanım için tasarlanmıştır.
+
+
+<h2>Fonksiyonlar 🧰</h2>
+getImageUrl(url)
+Belirtilen URL'den bir resim URL'si alır ve URL'yi döndürür.
+
+<h2>Parametreler📝</h2>
+url (string): Bir resim URL'si veya YouTube video URL'si.
+Dönüş Değeri
+imgUrl (string): Geçerli bir resim URL'si bulunursa, URL'yi döndürür. Geçersiz bir URL veya resim bulunamazsa, boş bir dize döndürür.
+
+<h2>Sınırlamalar</h2>
+Bu araç, yalnızca YouTube videolarının küçük resimlerini ve resim dosyalarını destekler.
+Bu araç, resim URL'si almak için sadece belirtilen URL'nin biçimini kontrol eder ve resmin mevcut olup olmadığını veya alınabilir olup olmadığını kontrol etmez.
+
+<h2>🙏 Katkıda Bulunma</h2>
+Eğer bir hata bulursanız, yeni bir özellik önermek isterseniz veya kodu iyileştirmek için fikirleriniz varsa, lütfen bir pull request göndermekten çekinmeyin!
+
+<h2>📜 Lisans</h2>
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakınız.
+
+
+
+
 
 <h2>🎉 Keyifli kullanımlar! 🚀</h2>
 
