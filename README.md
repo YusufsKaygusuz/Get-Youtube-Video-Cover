@@ -9,7 +9,7 @@
 1. Bu dosyayı bir web sunucusuna yükleyin.
 2. Web tarayıcınızda, bu dosyaya sunucu adresi üzerinden erişin. (XAMPP indirip Apache servisini aktif hale getirerek kullanabilirsiniz.)
 3. XAMPP uygulamasında ki Explorer klasörüne tıklayın ve açılan dosya dizisindeki htdocs klasörünün içine projemizin dosyasını ekleyin.
-4. Ardından tarayıcınıza http://localhost/Get-Youtube-Video-Cover-main yazın ve çalıştırın.
+4. Ardından tarayıcınıza <strong>localhost/Get-Youtube-Video-Cover-main</strong> yazın ve çalıştırın.
 5. YouTube video URL'sini yapıştırın ve "Önizle" düğmesine tıklayın.
 6. Varsayılan olarak, küçük resim önizlemesi gösterilecektir.
 7. "Resmi İndir" düğmesine tıklayarak, küçük resmi bilgisayarınıza indirin.
