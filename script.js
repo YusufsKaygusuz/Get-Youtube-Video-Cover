@@ -36,18 +36,18 @@
         if (imageUrl) { // Eğer resim URL'si mevcutsa
           imgTag.src = imageUrl; // Resim etiketinin "src" özelliğini resim URL'siyle güncelle
           previewArea.classList.add("active"); // Önizleme alanına "active" sınıfını ekle
-          button.style.pointerEvents = "auto";
-          hiddenInput.value = imageUrl;
+          button.style.pointerEvents = "auto"; // Butonun etkinliğini açmak için pointer-events stil özelliğini "auto" olarak ayarla
+          hiddenInput.value = imageUrl; // Gizli giriş alanının değerini resim URL'siyle güncelle
         } else {
-          imgTag.src = "";
-          previewArea.classList.remove("active");
-          button.style.pointerEvents = "none";
-          hiddenInput.value = "";
+          imgTag.src = ""; // Resim etiketinin "src" özelliğini boş hale getir
+          previewArea.classList.remove("active");  // Önizleme alanından "active" sınıfını kaldır
+          button.style.pointerEvents = "none"; // Butonun etkinliğini kapatmak için pointer-events stil özelliğini "none" olarak ayarla
+          hiddenInput.value = ""; // Gizli giriş alanının değerini boş hale getir
         }
       } else {
-        imgTag.src = "";
-        previewArea.classList.remove("active");
-        button.style.pointerEvents = "none";
-        hiddenInput.value = "";
+        imgTag.src = ""; // Resim etiketinin "src" özelliğini boş hale getir
+        previewArea.classList.remove("active"); // Önizleme alanından "active" sınıfını kaldır
+        button.style.pointerEvents = "none"; // Butonun etkinliğini kapatmak için pointer-events stil özelliğini "none" olarak ayarla
+        hiddenInput.value = ""; // Gizli giriş alanının değerini boş hale getir
       }
     });
