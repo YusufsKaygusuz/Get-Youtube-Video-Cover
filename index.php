@@ -16,7 +16,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YouTube videolarındaki küçük resimleri indirin</title>
+     <title>Down_Thumbnail | Yusuf&Feyza</title>
     <link rel="stylesheet" href="style.css">
     <!-- Yazı tipleri için link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -35,7 +35,7 @@
         <div class="preview-area">
             <img class="thumbnail" src="" alt="thumbnail">
             <i class="icon fas fa-cloud-download-alt"></i>
-            <span>Önizlemeyi görmek için videoyu yapıştırınız</span>
+            <span>Önizlemeyi görmek için video linkini yapıştırınız</span>
         </div>
         <button class="download-btn" type="submit" name="download" >Resmi İndiriniz</button>
      </form>
